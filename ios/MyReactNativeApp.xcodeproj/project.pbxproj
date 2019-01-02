@@ -1210,6 +1210,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
@@ -1223,7 +1224,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ubaidchalil.MyReactNativeApp;
 				PRODUCT_NAME = MyReactNativeApp;
-				PROVISIONING_PROFILE_SPECIFIER = testProfile;
+				PROVISIONING_PROFILE_SPECIFIER = test;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1232,6 +1233,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3F939LJVSH;
@@ -1244,7 +1246,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ubaidchalil.MyReactNativeApp;
 				PRODUCT_NAME = MyReactNativeApp;
-				PROVISIONING_PROFILE_SPECIFIER = testProfile;
+				PROVISIONING_PROFILE_SPECIFIER = test;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
